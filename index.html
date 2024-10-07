@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer> 
+    <main>
+        <div class="log_inn_window">
+            <div class="log_inn_window__icon">
+                <img class="log_inn_window__icon__img" src="homes.svg" alt="House Image">
+                <h3 class="log_inn_window__icon__heading">Home Solutions</h3>
+            </div>
+            <div class="log_inn_window__form">
+                <h3 class="log_inn_window__form__heading">Log In</h3>
+                <form action="/action_page.php">
+                    <input class="log_inn_window__form__input" type="text" id="mail" name="mail" value="e-mail"><br>
+                    <input class="log_inn_window__form__input" type="text" id="pass" name="pass" value="password"><br><br>
+                    <input class="log_inn_window__form__submit" type="submit" value="Log In">
+                </form> 
+                <p class="log_inn_window__form__para">Don't have an account? <a class="log_inn_window__form__link" href="/register">Register</a></p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
